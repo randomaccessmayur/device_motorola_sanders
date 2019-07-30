@@ -595,4 +595,7 @@
         <item>392.9</item>
     </array>
 
+    <!-- Remote server that can provide NTP responses. -->
+    <string translatable="false" name="config_ntpServer">1.android.pool.ntp.org</string>
+
 </resources>
