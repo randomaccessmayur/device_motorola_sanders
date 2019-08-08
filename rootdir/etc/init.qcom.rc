@@ -27,7 +27,6 @@
 
 import /vendor/etc/init/hw/init.mmi.rc
 import /vendor/etc/init/hw/init.sanders.rc
-import /vendor/etc/init/hw/init.spectrum.rc
 import /vendor/etc/init/hw/init.dtv.rc
 
 on early-init
