@@ -1095,15 +1095,15 @@
 	<path name="mic1">
 		<path name="adc1" />
 		<ctl name="ADC1 Volume" value="7" />
-		<ctl name="ADC2 Volume" value="0" />
-		<ctl name="ADC3 Volume" value="0" />
+		<ctl name="ADC2 Volume" value="4" />
+		<ctl name="ADC3 Volume" value="4" />
 	</path>
 
 	<path name="mic2">
 		<ctl name="DEC1 MUX" value="ADC3" />
 		<ctl name="ADC2 MUX" value="INP3" />
-		<ctl name="ADC1 Volume" value="0" />
-		<ctl name="ADC2 Volume" value="0" />
+		<ctl name="ADC1 Volume" value="4" />
+		<ctl name="ADC2 Volume" value="4" />
 		<ctl name="ADC3 Volume" value="7" />
 	</path>
 
