@@ -55,6 +55,7 @@ public class ThermalProfiles {
             case "com.google.android.youtube":
             case "com.netflix.mediaclient":
             case "com.google.android.videos":
+            case "com.mxtech.videoplayer.pro":
             case "com.amazon.avod.thirdpartyclient":
             case "com.google.android.apps.youtube.kids":
                 return MODE_VIDEO;
@@ -64,6 +65,7 @@ public class ThermalProfiles {
                 return MODE_BROWSER;
             case "org.codeaurora.snapcam":
             case "com.android.camera":
+            case "com.omnirom.snap":
             case "com.android.gallery3d":
             case "com.google.android.apps.camera":
             case "com.google.android.apps.photos":
