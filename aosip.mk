@@ -49,12 +49,4 @@ VENDOR_BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/51486
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
-# Gapps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-# PixelStyle
-$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
-
 AOSIP_BUILDTYPE := DerpFest
