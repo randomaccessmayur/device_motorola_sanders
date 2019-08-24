@@ -50,3 +50,6 @@ VENDOR_BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/51486
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
 AOSIP_BUILDTYPE := DerpFest
+
+# PixelStyle
+$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
